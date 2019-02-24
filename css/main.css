@@ -1,0 +1,290 @@
+/*
+Theme Name: Mimaty
+Theme Coder: Omer Alhag
+PSD Designer:
+FirstColor: #08526d
+SecondColor: #ec1c23
+*/
+/* Start Upper Bor */
+
+body {
+    height: 2000%;
+}
+.upper-bar {
+    background-color: #08526d;
+    color : #fff;
+    padding :10px;
+}
+.upper-bar button{
+    background-color: #08526d;
+    font-size: 20px;
+    color: #fff;
+    padding: 1px 15px;
+    font-weight: bold;
+    border: 2px solid #ed1d24;
+}
+
+/* End Upper Bor */
+
+/* Start nav Bar */
+.navbar-brand > span {
+    font-weight :bold;
+    font-size: 50xp;
+}
+.navbar-brand span:first-child {
+    color : #08526d;
+}
+.navbar-brand span:last-child{
+    color : #ec1c23;
+}
+.navbar-nav .nav-link{
+font-size: 15px;
+text-transform: uppercase;
+margin-left: 20px;
+font-weight: bold;
+}
+.navbar-nav .active > .nav-link{
+    color : #ec1c23 !important
+}
+
+/* End nav bar */
+
+/* St Slider */
+.slider{
+    background-color: #ddd;
+
+}
+.slider .carousel-inner {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.slider .carousel-inner h1{
+    position: absolute;
+    color: #fff;
+    z-index: 3;
+    font-size: 60;
+    max-width: 800px;
+    left: 100px;
+}
+.slider .carousel-inner h1 span{
+    color: #fff;
+    background-color: #ec1c23;
+    display: inline-block;
+    padding: 1px 5px;
+
+}
+.slider .carousel-inner .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-color:rgba(0, 0, 0, .7);
+    z-index: 2;
+}
+.slider .carousel-item {
+    -webkit-background-composite:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.slider .carousel-indicators li{
+height: 8px;
+cursor: pointer;
+}
+/* E Slider */
+
+
+/* S features */
+
+.features {
+    padding: 60px
+}
+
+.features h3{
+    color: #08526d;
+    font-size: 25px;
+}
+.features p{
+    color: #989898;
+    margin-bottom: 30px;
+}
+.fa-university{
+    color:#ec1c23;
+    background-color: #ed1d24;
+    color: #fff;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+
+.fa-network-wired{
+    color:#ec1c23;
+    background-color: #ed1d24;
+    color: #fff;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+.fa-comment{
+    color:#ec1c23;
+    background-color: #ed1d24;
+    color: #fff;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+.fa-globe{
+    color:#ec1c23;
+    background-color: #ed1d24;
+    color: #fff;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+/* E features */
+
+
+
+/* S OverView */
+.overview{
+    padding: 100px ;
+    background-color: #f0f5f7;
+
+}
+.overview h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.overview p{
+    line-height: 2;
+    font-size: 20px;
+    width: 103%;
+    margin: auto;
+    color: #877c7c;
+}
+.overview h4{
+    letter-spacing: 2px;
+    font-weight: normal;
+    color: #5f5c5c;
+    margin-bottom: 40px;
+}
+.overview button{
+    background-color: #ed1d24;
+    color: #fff;
+    padding: 7px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #ed1d24;
+}
+/* E OverView */
+/* S Work */
+.work{
+    padding: 100px 0;
+}
+.work h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.work p{
+    line-height: 1.6;
+    font-size: 20px;
+    width: 103%;
+    margin: auto;
+    color: #877c7c;
+}
+.work ul li {
+    color: #08526d;
+    border: 2px solid #08526d;
+    padding: 5px 15px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+
+}
+.work ul li.active{
+    background-color: #ec1c23;
+    border: 2px solid #ec1c23;
+    color: #fff;
+}
+.work ul li:hover{
+    cursor: pointer;
+    background-color: #ec1c23;
+    border: 2px solid #ec1c23;
+    color: #fff;
+}
+.work ul{
+    margin-top: 40px;
+}
+
+
+.posts{
+    padding: 0 0 100px;
+}
+.posts h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.posts .section-d{
+    line-height: 1.6;
+    font-size: 20px;
+    width: 103%;
+    margin: auto 45px;
+   
+    
+    color: #877c7c;
+}
+.posts .card{
+    margin-top: 30px;
+}
+.posts .card .card-title{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #08526d;
+}
+.posts .card .card-link{
+    color: #ec1c23;
+    font-weight: bold;
+}
+/* E Work */
+
+/* S testimonials */
+.testimonials {
+    -webkit-background-composite:cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-image: url(../img/ccna.jpg);
+    position: relative;
+}
+.testimonials .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    background-color:rgba(0, 0, 0, .6);
+    z-index: 2;
+}
+.testimonials .container{
+    position: relative;
+    z-index: 4;
+}
+.testimonials .carousel-item{
+    height: 700px;
+}
+.testimonials h3{
+    font-size: 35px;
+    margin-top: 10px;
+}
+.testimonials .carousel-indicators li {
+
+    height: 8px;
+    cursor: pointer;
+/* E testimonials */
